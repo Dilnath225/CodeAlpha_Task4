@@ -10,7 +10,7 @@ Date: 2025-07-12
 import random
 
 
-def simple_chatbot():
+def simple_chatbot(user_input):
 
     user_input = user_input.lower().strip()
     
@@ -75,7 +75,6 @@ def simple_chatbot():
             "That's interesting! Can you tell me more or ask something else?",
         ])
     
-main()
 
 def main():
     print("Welcome to simple chatbot!")
